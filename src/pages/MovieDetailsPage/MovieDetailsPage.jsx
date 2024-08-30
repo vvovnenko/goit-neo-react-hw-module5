@@ -31,7 +31,7 @@ const MovieDetailsPage = () => {
 
   useEffect(() => {
     handleMovieById();
-  }, []);
+  }, [movieId]);
 
   return (
     <section className="container">

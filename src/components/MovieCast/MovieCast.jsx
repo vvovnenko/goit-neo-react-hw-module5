@@ -27,7 +27,7 @@ const MovieCast = () => {
 
   useEffect(() => {
     handleMovieCast();
-  }, []);
+  }, [movieId]);
 
   return (
     <>
